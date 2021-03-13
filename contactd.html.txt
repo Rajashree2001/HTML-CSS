@@ -19,6 +19,6 @@ border:5px solid black;
 <br>
 <div><a href="mailto:srajashree071@gmail.com"> <img style="width:200px;" src="gmail.jpg"> </a></div>
 <br>
-<div> <img style="width:200px;" src="phone.jpg"> <p>9677947737</p></div>
+<div> <img style="width:200px;" src="phone.jpg"> <p>9972355340</p></div>
 </body>
 </html>
