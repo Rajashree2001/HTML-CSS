@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>availabilities</title>
+<style>
+*{
+text-align:center;
+}
+
+body{
+background-color:bisque;
+opacity:0.3;
+}
+
+.fill{
+border:5px solid black;
+padding:10px;
+margin:15px;
+background-color:hotpink;
+color:black;
+}
+ul{
+background:blue;
+margin:100px;
+padding:20px;
+}
+
+ul li{
+background:powderblue;
+
+padding:2px;
+}
+
+a.one:link , a.one:visited {
+background-color:hotpink;
+color:black;
+text-align:center;
+text-decoration:none;
+padding:15px 25px;
+display:inline-block;
+}
+
+a.one:hover , a.one:active{
+ background-color:black;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<script>
+window.alert("FRESH VEGETABLES ARE AVAILABLE");
+</script>
+
+<h1 class="fill" style="text-transform:capitalize;">availabilities</h1>
+<ul style="font-size:30px;list-style-type:none ">
+<li><a href="#fruits"> fruits</li>
+<li><a href="#vegetables ">vegetables</a> </li>
+</ul>
+<br>
+<br>
+<br>
+<pre>
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="fruits" style="list-style-type:none;font-size:20px;">
+<li> apple </li>
+<li>  banana</li>
+<li>  pineappla</li>
+<li> orange </li>
+<li> lichi </li>
+<li> water melon </li>
+<li> grapes</li>
+<li>jack fruit </li>
+<li> guava</li>
+<li> custard apple</li>
+</ul>
+
+
+
+
+
+
+
+
+
+<ul id="vegetables" style="list-style-type:none;font-size:20px;">
+<li> carrot</li>
+<li> brinjal</li>
+<li>potato </li>
+<li> bitter guard</li>
+<li>bottle guard </li>
+<li> beetroot</li>
+<li> lady's finger</li>
+<li> beans</li>
+<li> tomato</li>
+<li> cabbage</li>
+</ul>
+
+<button onclick="window.print()" > print this page</button>
+
+<a class="one" href="about.html" target="_blank"> Next</a>
+</pre>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>personal information  </title>
+<style>
+*{
+text-align:center;
+}
+body{
+background-color:powderblue;
+opacity:0.8;
+}
+
+.fill{
+border:5px solid black;
+padding:10px;
+margin:15px;
+background-color:hotpink;
+color:black;
+}
+
+a.one:link , a.one:visited {
+background-color:hotpink;
+color:black;
+text-align:center;
+text-decoration:none;
+padding:15px 25px;
+display:inline-block;
+}
+
+a.one:hover , a.one:active{
+ background-color:black;
+color:white;
+}
+
+.success{
+background-color:green;
+}
+.success:hover{
+background-color:white;
+}
+</style>
+</head>
+
+<body>
+<h1 class="fill" style="text-transform:capitalize;"> fill the details below</h1>
+<pre>
+
+
+<div style="font-size:25px;">
+<h4> NAME </h4>
+<input type="text" placeholder="enter your name" >
+<h4> PASSWORD </h4> 
+<input type="password" placeholder="enter your password" > 
+<h4> EMAIL </h4>
+<input type="email" placeholder="enter your email" >
+<h4> ADDRESS </h4>
+<input type="text" placeholder="enter your address" > 
+<h4> DATE </h4>
+<input type="date"  > 
+<p style="font-size:25px;"> have you purchased before <input name="btn" type="radio" >
+<br>
+<textarea rows=5" cols="10">
+        
+  suggestions
+
+
+</textarea>
+<div><button type="button" onclick="document.getElementById('demo').style.display='block'">SUBMIT</button></div>
+</div>
+</pre>
+<p id="demo" style="display:none;"><img  src="gif image.gif" width="100px" ></p>
+
+
+<div><button type="button" onclick="document.getElementById('demo').style.display='none'">HIDE ME!</button></div>
+<br>
+<a class="one" href="avail.html" target="_blank"> Next</a>
+</body>
+</html>
